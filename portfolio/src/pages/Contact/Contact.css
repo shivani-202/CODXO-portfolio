@@ -1,22 +1,27 @@
 .contact-info {
   display: flex;
   height: 90vh;
+  animation: fadeIn 2s ease forwards;
 }
 .contact-info-1 {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  animation: fadeIn 2s ease forwards;
 }
 .contact-text-1 {
   font-size: 90px;
   font-weight: 600;
+  margin-top: 80px;
   margin-bottom: 5px;
+  animation: fadeIn 2s ease forwards;
 }
 .mailto-link {
   font-size: 50px;
   color: #7f7f7f;
   text-decoration: none;
   margin-bottom: 130px;
+  animation: fadeIn 2s ease forwards;
 }
 .mailto-link:hover {
   font-size: 52px;
@@ -29,22 +34,33 @@
   justify-content: space-between;
   align-items: end;
   margin-bottom: 0px;
+  animation: fadeIn 2s ease forwards;
 }
 .socials {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto 5px;
+  animation: fadeIn 2s ease forwards;
 }
 .social-link {
   color: rgb(52, 50, 50);
   font-size: smaller;
   text-decoration: none;
   margin: 8px;
+  animation: fadeIn 2s ease forwards;
 }
 .social-link:hover {
   color: black;
   font-size: small;
   text-decoration: none;
   cursor: pointer;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

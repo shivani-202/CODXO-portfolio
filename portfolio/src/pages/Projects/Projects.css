@@ -7,6 +7,7 @@
   padding: 20px;
   background: none;
   height: 90vh;
+  animation: fadeIn 2s ease forwards;
 }
 .project-card {
   position: relative;
@@ -18,13 +19,16 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
+  animation: fadeIn 2s ease forwards;
 }
 .project-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 2s ease forwards;
 }
 .project-content {
   transition: filter 0.3s;
+  animation: fadeIn 2s ease forwards;
 }
 .project-card:hover .project-content {
   filter: blur(10px);
@@ -37,6 +41,7 @@
   opacity: 0;
   transition: opacity 0.3s;
   text-align: center;
+  animation: fadeIn 2s ease forwards;
 }
 .project-card:hover .project-links {
   opacity: 1;
@@ -51,6 +56,7 @@
   border-radius: 5px;
   text-decoration: none;
   transition: background-color 0.3s;
+  animation: fadeIn 2s ease forwards;
 }
 
 .project-links a:hover {
@@ -58,8 +64,18 @@
 }
 .name {
   font-size: large;
+  animation: fadeIn 2s ease forwards;
 }
 .description {
   font-size: small;
   text-align: justify;
+  animation: fadeIn 2s ease forwards;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

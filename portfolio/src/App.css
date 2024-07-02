@@ -4,7 +4,13 @@
   padding: 2rem;
   text-align: center;
 }
-
+* {
+  scroll-behavior: smooth;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 .logo {
   height: 6em;
   padding: 1.5em;

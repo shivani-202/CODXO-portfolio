@@ -1,9 +1,10 @@
 .profile-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   height: 90vh;
   margin: 0 auto;
+  animation: fadeIn 2s ease forwards;
 }
 .profile-image {
   width: 350px;
@@ -11,11 +12,16 @@
   border-radius: 50%;
   object-fit: cover;
   margin: auto 20px;
+  margin-right: 20px;
+  animation: fadeIn 2s ease forwards;
 }
 .intro-text .about {
   text-align: justify;
+  margin-left: 20px;
   width: 440px;
   margin: auto 20px 40px auto;
+  animation: fadeIn 2s ease forwards;
+  flex: 1;
 }
 .resume-btn {
   border: 1px solid black;
@@ -25,6 +31,7 @@
   margin: 5px auto auto 0px;
   font-size: medium;
   font-weight: 500;
+  animation: fadeIn 2s ease forwards;
 }
 .resume-btn:hover {
   cursor: pointer;
@@ -34,4 +41,12 @@
   font-weight: 600;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
