@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 80vh;
+  padding: auto;
+}
+
+.home-text {
+  padding: 10px 20px;
+  height: 50%;
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.text {
+  font-size: 30px;
+  color: gray;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  animation: fadeIn 2s ease forwards;
+}
+.name-text {
+  font-size: 18px;
+  margin: 0px 0px 0px 0px;
+  font-weight: 600;
+  animation: fadeIn 2s ease forwards;
+}
+/* .profile-img {
+  height: 50vh;
+  width: 50vh;
+  border-radius: 50%;
+  display: flex;
+} */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

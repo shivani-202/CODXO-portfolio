@@ -1,0 +1,50 @@
+.contact-info {
+  display: flex;
+  height: 90vh;
+}
+.contact-info-1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.contact-text-1 {
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.mailto-link {
+  font-size: 50px;
+  color: #7f7f7f;
+  text-decoration: none;
+  margin-bottom: 130px;
+}
+.mailto-link:hover {
+  font-size: 52px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  /* text-decoration: underline; */
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 0px;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 5px;
+}
+.social-link {
+  color: rgb(52, 50, 50);
+  font-size: smaller;
+  text-decoration: none;
+  margin: 8px;
+}
+.social-link:hover {
+  color: black;
+  font-size: small;
+  text-decoration: none;
+  cursor: pointer;
+}

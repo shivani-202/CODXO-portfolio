@@ -1,0 +1,37 @@
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  margin: 0 auto;
+}
+.profile-image {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: auto 20px;
+}
+.intro-text .about {
+  text-align: justify;
+  width: 440px;
+  margin: auto 20px 40px auto;
+}
+.resume-btn {
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 100px;
+  height: 40px;
+  margin: 5px auto auto 0px;
+  font-size: medium;
+  font-weight: 500;
+}
+.resume-btn:hover {
+  cursor: pointer;
+  width: 120px;
+  height: 50px;
+  border-radius: 25px;
+  font-weight: 600;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
